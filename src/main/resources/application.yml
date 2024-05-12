@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: stakify-user
+  jpa:
+    open-in-view: false
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://example.cmzounkd0o84.us-east-1.rds.amazonaws.com:5432/example
+    username: postgres
+    password: Ras!24101995
+    hikari:
+      maximum-pool-size: 10
+  flyway:
+    baselineOnMigrate: true
+
+server:
+    port: 9090
